@@ -1,0 +1,11 @@
+this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+			// 
+			// notifyIcon1
+			// 
+			this.notifyIcon1.Icon = new System.Drawing.Icon("tubiao.ico");
+			this.notifyIcon1.Text = "IR Control";
+			this.notifyIcon1.Visible = true;
+			this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+
+
+this.Deactivate += Form1_Deactivate;
